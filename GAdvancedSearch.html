@@ -2,21 +2,74 @@
 <html lang="en">
     <head>
         <title>Google Advanced Search</title>
+        <style>
+            img {
+                position: relative;
+                width: 800;
+                height: 400;
+                top: 150px;
+                left: 230px;
+            }
+            a {
+            position: relative;
+            top: 150px;
+            left: 350px;
+            }
+            #as_q {
+                position: fixed;
+                top: 250px;
+                left: 300px;
+            }
+            #as_epq {
+                position: fixed;
+                top: 290px;
+                left: 300px;
+            }
+            #as_oq {
+                position: fixed;
+                top: 330px;
+                left: 300px;
+            }
+            #as_eq {
+                position: fixed;
+                top: 370px;
+                left: 300px;
+            }
+            #button {
+            position: relative;
+            top: 250px;
+            left: 650px;
+            background-color: blue;
+            color:white;
+            height: 30px;
+        }
+
+
+        </style>
     </head>
     <body>
+        <img src="C:/Users/tibi/Documents/Courses/Harvard/Project 0/gadvancedsearch.png", alt="Google Logo", width="200"
+         height="80">
+         <a href="/C:/Users/tibi/Documents/Courses/Harvard/Project%200/Gsearch.html">Google Search
+         </a>
         <form action="https://www.google.com/search">
-            <label for id="as_q">Find pages with: all these words</label>
-            <input id="as_q", type="text", name="as_q", title="Find pages with: all these words:"><br>
-            <label for id="as_epq">Find pages with: this exact word or phrase</label>
-            <input id="as_epq", type="text", name="as_epq", title="Find pages with: this exact word or phrase"><br>
-            <label for id="as_oq">Find pages with: any of these words</label>
-            <input id="as_oq", type="text", name="as_oq", title="Find pages with: any of these words"><br>
-            <label for id="as_eq">Find pages with: none of these words</label>
-            <input id="as_eq", type="text", name="as_eq", title="Find pages with: none of these words">
-            <input type="submit", name="Search", value="Search", style = "background-color: blue;
-            color: white;">
+            <label style = "position: fixed;
+            top: 250px;
+            left: 10px;">Find pages with: all these words</label>
+            <input id="as_q", type="text", name="as_q", title="Find pages with: all these words:", size="60"><br>
+            <label style = "position: fixed;
+            top: 290px;
+            left: 10px;">Find pages with: this exact word or phrase</label>
+            <input id="as_epq", type="text", name="as_epq", title="Find pages with: this exact word or phrase", size="60"><br>
+            <label style = "position: fixed;
+            top: 330px;
+            left: 10px;">Find pages with: any of these words</label>
+            <input id="as_oq", type="text", name="as_oq", title="Find pages with: any of these words", size="60"><br>
+            <label style = "position: fixed;
+            top: 370px;
+            left: 10px;">Find pages with: none of these words</label>
+            <input id="as_eq", type="text", name="as_eq", title="Find pages with: none of these words", size="60"><br>
+            <input id="button", type="submit", name="Search", value="Search">
         </form>
-        <a href="/C:/Users/tibi/Documents/Courses/Harvard/Project%200/index.html">Google Search
-        </a>
     </body>
 </html>

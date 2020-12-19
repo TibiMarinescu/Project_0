@@ -2,14 +2,49 @@
 <html lang="en">
     <head>
         <title>Google Images</title>
+        <style>
+            img {
+            position: relative;
+            width: 800;
+            height: 400;
+            top: 150px;
+            left: 570px;
+        }
+        form { 
+            display:inline;}
+        #bar {
+            position: relative;
+            top: 150px;
+            left: 450px;
+            border-radius: 5px;
+            display: inline;
+            height: 30px;
+        }
+        a {
+            position: relative;
+            top: 150px;
+            left: 450px;
+        }
+        #button {
+            position: relative;
+            top: 150px;
+            left: 450px;
+            display: inline; 
+            background-color:darkgray;
+            color: black;
+            height: 30px;
+        }
+        </style>
     </head>
     <body>
+        <img src="C:/Users/tibi/Documents/Courses/Harvard/Project 0/gimages.png", alt="Google Logo", width="200"
+         height="80"><br>
         <form action="https://www.google.com/search?q=yellow&tbm=isch">
-            <input type="text", name="q">
+            <input id="bar", type="text", name="q", size="60">
             <input type="text", name="tbm", value="isch", hidden>
-            <input type="submit", name="Search", value="Search">
+            <input id="button", type="submit", name="Search", value="Search">
         </form>
-    <a href="/C:/Users/tibi/Documents/Courses/Harvard/Project%200/index.html">Google Search
+    <a href="/C:/Users/tibi/Documents/Courses/Harvard/Project%200/Gsearch.html">Google Search
         </a>
     </body>
 </html>
